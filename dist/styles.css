@@ -216,6 +216,7 @@
 }
 .buttons__order_send {
   width: 30%;
+  font-size: 15px;
 }
 .buttons__details {
   color: #2A2B30;

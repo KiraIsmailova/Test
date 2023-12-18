@@ -1,0 +1,23 @@
+
+        .dot {
+            width: 5px;
+            /* Размер точки */
+            height: 5px;
+            /* Размер точки */
+            background-color: white;
+            /* Цвет точки */
+            border-radius: 50%;
+            /* Делает точку круглой */
+            margin-right: 25px;
+            /* Расстояние между точками */
+        }
+
+        .dotted-line {
+            margin: 0px 5px 15px 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .dot:last-of-type {
+            margin-right: 0;
+        }

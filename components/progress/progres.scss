@@ -1,0 +1,46 @@
+.progress {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 50px;
+
+  &__wrapper {
+    width: 63%;
+    margin-right: 30px;
+    
+  }
+
+  &__text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 19px;
+    color: white;
+    font-size: 16px;
+  }
+
+  &__container {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  &__bar {
+    height: 5px;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  &__thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #2196F3;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    /* Синхронизируем это значение с текущим прогрессом */
+    transform: translate(-50%, -50%);
+  }
+}

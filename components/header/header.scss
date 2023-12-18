@@ -1,0 +1,29 @@
+   .header {
+            background: rgba(16, 16, 29, 0.90);
+            padding: 33px 0 31px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header__container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            text-transform: uppercase;
+            line-height: normal;
+            font-style: normal;
+        }
+
+        .header__logo {
+            color: #fff;
+            font-family: Raleway;
+            font-size: 28px;
+            font-weight: 800;
+        }
+
+        .header__logo_colored {
+            color: #42A9ED;
+        }

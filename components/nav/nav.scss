@@ -1,0 +1,15 @@
+        .nav__menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 60px;
+            list-style-type: none;
+            color: #FFF;
+            text-align: right;
+            font-family: Lato;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .nav a:hover {
+            color: #42A9ED;
+        }

@@ -1,0 +1,32 @@
+        .buttons {
+            display: flex;
+            gap: 30px;            
+            font-family: Lato;
+            text-align: center;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; 
+        
+
+       &__order {
+            color: #FFF;
+            border: 1px solid #FFF;
+            background: #3E9CDC;
+            padding: 15px 60px;
+            border-radius: 4px;
+            text-transform: uppercase;
+     &_send {
+            width: 30%;
+        }
+    }
+
+ &__details {
+            color: #2A2B30;
+            border: 1px solid #2A2B30;
+            background: #FFF;
+            padding: 15px 60px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+    }
